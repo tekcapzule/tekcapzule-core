@@ -1,7 +1,7 @@
-package in.tekcapsule.core.utils;
+package com.tekcapsule.core.utils;
 
-import in.tekcapsule.core.domain.Origin;
-import in.tekcapsule.core.domain.SourceSystem;
+import com.tekcapsule.core.domain.Origin;
+import com.tekcapsule.core.domain.SourceSystem;
 import org.springframework.messaging.MessageHeaders;
 
 public class HeaderUtil {

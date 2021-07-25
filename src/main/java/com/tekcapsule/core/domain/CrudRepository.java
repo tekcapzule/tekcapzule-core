@@ -1,4 +1,4 @@
-package in.tekcapsule.core.domain;
+package com.tekcapsule.core.domain;
 
 import java.util.List;
 

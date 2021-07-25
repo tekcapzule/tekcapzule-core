@@ -1,4 +1,4 @@
-package in.tekcapsule.core.config;
+package com.tekcapsule.core.config;
 
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
