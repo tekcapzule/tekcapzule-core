@@ -4,12 +4,12 @@ import java.util.List;
 
 public interface CrudRepository<T, ID> {
 
-    T findBy(ID tenantId, ID id);
+    T findBy( ID id);
 
-    List<T> findAll(ID tenantId);
+    List<T> findAll();
 
     T save(T entity);
 
-    void delete(ID tenantId, ID id);
+    void delete( ID id);
 
 }
