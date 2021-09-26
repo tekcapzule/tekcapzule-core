@@ -11,7 +11,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Builder
-public class Origin implements ValueObject {
+public class Origin {
     private String tenantId;
     private String userId;
     private SourceSystem channel;
