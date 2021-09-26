@@ -24,7 +24,7 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Build
-        run: mvn -B -s settings.xml compile
+        run: mvn -B -U -s settings.xml compile
   inspect:
     needs: build
     name: Inspect
@@ -53,7 +53,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B -s settings.xml verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=tekcapsule_tekcapsule-core
+        run: mvn -B -U -s settings.xml verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=tekcapsule_tekcapsule-core
   analyze:
     needs: inspect
     name: Analyze Code
@@ -119,4 +119,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SERVER_PASSWORD }}
           SONAR_TOKEN: ${{ secrets.SERVER_USERNAME }}
-        run: mvn -B -s settings.xml clean package deploy
+        run: mvn -B -U -s settings.xml clean package deploy
