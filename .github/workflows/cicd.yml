@@ -5,10 +5,10 @@ on:
       - main
   pull_request:
     types: [opened, synchronize, reopened]
+env:
+  SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
+  SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
 jobs:
-  env:
-    SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
-    SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
   build:
     name: Build
     runs-on: ubuntu-latest
