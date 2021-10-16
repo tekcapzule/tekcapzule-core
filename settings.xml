@@ -8,8 +8,8 @@
             <id>central</id>
         </server>
         <server>
-            <username>${server.username}</username>
-            <password>${server.password}</password>
+            <username>${env.SERVER_USERNAME}</username>
+            <password>${env.SERVER_PASSWORD}</password>
             <id>snapshots</id>
         </server>
     </servers>
