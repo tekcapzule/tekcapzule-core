@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode
-public abstract class BaseDomainEntity<ID extends String> {
+public abstract class BaseDomainEntity {
 
     @DynamoDBAttribute(attributeName = "addedBy")
     private String addedBy;
