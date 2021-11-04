@@ -25,8 +25,13 @@ public class DynamoDBConfig {
                 .withRegion(String.valueOf(Region.valueOf(cloudRegion)))
                 .build();
 
+        String prefix = applicationEnvironment;
 
-        return new DynamoDBMapper(client, DynamoDBMapperConfig.DEFAULT);
+        DynamoDBMapperConfig.Builder builder = new DynamoDBMapperConfig.Builder();
+        builder.setTableNameOverride(DynamoDBMapperConfig.TableNameOverride.withTableNamePrefix(prefix));
+        builder.setTypeConverterFactory(DynamoDBTypeConverterFactory.standard());
+
+        return new DynamoDBMapper(client, builder.build());
     }
     @Bean
     public DynamoDBMapperConfig.TableNameOverride getTableNameOverride() {
