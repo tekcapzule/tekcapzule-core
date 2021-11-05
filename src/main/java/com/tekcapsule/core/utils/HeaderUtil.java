@@ -50,6 +50,8 @@ public class HeaderUtil {
 
         if (outcome == Outcome.SUCCESS) {
             responseHeader.put(HTTP_STATUS_CODE_HEADER, HttpStatus.OK.value());
+        } else if (outcome == Outcome.NOT_FOUND) {
+            responseHeader.put(HTTP_STATUS_CODE_HEADER, HttpStatus.NOT_FOUND.value());
         } else {
             responseHeader.put(HTTP_STATUS_CODE_HEADER, HttpStatus.INTERNAL_SERVER_ERROR.value());
         }
