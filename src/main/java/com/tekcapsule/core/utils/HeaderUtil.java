@@ -18,7 +18,8 @@ public class HeaderUtil {
 
     public static final String ALLOW_METHODS = "POST";
     public static final String ALLOW_CREDENTIALS = "true";
-    public static final String ALLOW_ORIGIN = "*";
+    public static final String ALLOW_ALL_ORIGIN = "*";
+    public static final String ALLOW_WHITELISTED_ORIGIN = "*.tekcapsule.com";
     public static final String ALLOW_HEADERS = "Content-Type";
 
     public static Origin buildOriginFromHeaders(MessageHeaders headers) {
@@ -38,14 +39,17 @@ public class HeaderUtil {
         return origin;
     }
 
-    public static Map<String, Object> populateCorsHeaders(Map<String, Object> responseHeader) {
+    public static Map<String, Object> populateCorsHeaders(Map<String, Object> responseHeader, Stage stage) {
 
         responseHeader.put(ACCESS_CONTROL_ALLOW_CREDENTIALS, ALLOW_CREDENTIALS);
         responseHeader.put(ACCESS_CONTROL_ALLOW_HEADERS, ALLOW_HEADERS);
         responseHeader.put(ACCESS_CONTROL_ALLOW_METHODS, ALLOW_METHODS);
-        responseHeader.put(ACCESS_CONTROL_ALLOW_ORIGIN, ALLOW_ORIGIN);
 
+        if (stage == Stage.PROD) {
+            responseHeader.put(ACCESS_CONTROL_ALLOW_ORIGIN, ALLOW_WHITELISTED_ORIGIN);
+        } else {
+            responseHeader.put(ACCESS_CONTROL_ALLOW_ORIGIN, ALLOW_ALL_ORIGIN);
+        }
         return responseHeader;
     }
-
 }
