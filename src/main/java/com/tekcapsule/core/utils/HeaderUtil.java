@@ -26,18 +26,12 @@ public class HeaderUtil {
     public static final String HTTP_STATUS_CODE_HEADER = "statuscode";
 
     public static Origin buildOriginFromHeaders(MessageHeaders headers) {
-        /*SourceSystem sourceSystem = SourceSystem.valueOf(headers.get(CHANNEL).toString());
+        SourceSystem sourceSystem = SourceSystem.valueOf(headers.get(CHANNEL).toString().toUpperCase());
         String userId = headers.get(USER_ID).toString();
 
         Origin origin = Origin.builder()
                 .channel(sourceSystem)
-                .tenantId(tenantId)
                 .userId(userId)
-                .build();*/
-
-        Origin origin = Origin.builder()
-                .channel(SourceSystem.WEB_CLIENT)
-                .userId("tekCapsuleUser")
                 .build();
         return origin;
     }
