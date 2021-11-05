@@ -10,7 +10,7 @@ public class PayloadUtil {
     public static final String SUCCESS_MESSAGE = "Congratulations! Your request has made its way!";
     public static final String SUCCESS_CODE = "200";
 
-    public static Map<String, Object> populatePayload(Map<String, Object> responseHeader, Outcome outcome) {
+    public static Map<String, Object> composePayload(Map<String, Object> responseHeader, Outcome outcome) {
 
         Map<String, Object> payload = new HashMap();
 
