@@ -21,7 +21,7 @@ public class HeaderUtil {
     public static final String ALLOW_CREDENTIALS = "true";
     public static final String ALLOW_ALL_ORIGIN = "*";
     public static final String ALLOW_WHITELISTED_ORIGIN = "*.tekcapsule.com";
-    public static final String ALLOW_HEADERS = "Content-Type";
+    public static final String ALLOW_HEADERS = "*";
 
     public static final String HTTP_STATUS_CODE_HEADER = "statuscode";
 
