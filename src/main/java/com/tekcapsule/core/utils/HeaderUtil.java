@@ -17,7 +17,7 @@ public class HeaderUtil {
     public static final String ACCESS_CONTROL_ALLOW_ORIGIN = "Access-Control-Allow-Origin";
     public static final String ACCESS_CONTROL_ALLOW_HEADERS = "Access-Control-Allow-Headers";
 
-    public static final String ALLOW_METHODS = "POST";
+    public static final String ALLOW_METHODS = "*";
     public static final String ALLOW_CREDENTIALS = "true";
     public static final String ALLOW_ALL_ORIGIN = "*";
     public static final String ALLOW_WHITELISTED_ORIGIN = "*.tekcapsule.com";
