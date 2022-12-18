@@ -83,7 +83,7 @@
         <repository>
             <id>github</id>
             <name>GitHub TekCapsule Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/tekcapsule/tekcapsule-core</url>
+            <url>https://maven.pkg.github.com/tekcapsule/tekcapsule-repo</url>
         </repository>
     </distributionManagement>
 </project>
