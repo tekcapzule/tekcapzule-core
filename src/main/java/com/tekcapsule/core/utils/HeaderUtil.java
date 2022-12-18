@@ -9,8 +9,8 @@ import java.util.Map;
 
 public class HeaderUtil {
 
-    public static final String USER_ID = "x-user-login";
-    public static final String CHANNEL = "x-channel-code";
+    public static final String USER_ID = "X-User-Login";
+    public static final String CHANNEL = "X-Channel-Code";
 
     public static final String ACCESS_CONTROL_ALLOW_METHODS = "Access-Control-Allow-Methods";
     public static final String ACCESS_CONTROL_ALLOW_CREDENTIALS = "Access-Control-Allow-Credentials";

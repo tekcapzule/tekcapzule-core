@@ -15,7 +15,7 @@
     <name>core</name>
     <description>TekCapsule Core shared library</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
         <spring-cloud-function.version>3.1.4</spring-cloud-function.version>
         <sonar.organization>tekcapsule</sonar.organization>
@@ -75,19 +75,15 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${project.parent.version}</version>
             </plugin>
         </plugins>
     </build>
     <distributionManagement>
         <repository>
-            <id>central</id>
-            <name>a0vc0lkn9nvcm-artifactory-primary-0-releases</name>
-            <url>https://tekcapsulerepo.jfrog.io/artifactory/default-maven-local</url>
+            <id>github</id>
+            <name>GitHub TekCapsule Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/tekcapsule/tekcapsule-core</url>
         </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>a0vc0lkn9nvcm-artifactory-primary-0-snapshots</name>
-            <url>https://tekcapsulerepo.jfrog.io/artifactory/default-maven-local</url>
-        </snapshotRepository>
     </distributionManagement>
 </project>
