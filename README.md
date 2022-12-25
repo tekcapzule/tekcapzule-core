@@ -1,1 +1,1 @@
-# tekcapsule-core
+# Tekcapsule Core
