@@ -24,7 +24,7 @@
 </div>
 <div align="center">
   
-  <a href="https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=389065421&machine=standardLinux32gb&location=SouthEastAsia">![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)</a>
+  <a href="https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=389071487&machine=standardLinux32gb&location=SouthEastAsia">![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)</a>
 
 </div>
 
@@ -55,7 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project contains set of functions written in Java 11 to create, update, query and manage TekCapsule users. It is a multi-module maven project with two modules named application & domain. Application module is a springboot application that exposes these functions and domain module contains the domain logic.
+This project contains set of re-usable helper methods and other shared classes that are used across all TekCapsule backend services (Lambda functions).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,19 +76,16 @@ Please follow the below instructions to setup the project locally.
 ### Prerequisites
 
 This project requires following softwares: 
-* SAM  
 * JAVA 11
 * Maven 
 
 ### Installation
 
 Please follow the step by step instructions to install the required softwares and setup the project.
-1. Get the AWS Access Key details
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/tekcapsule/tekcapsule-core.git
    ```
-3. Install SAM CLI by following instructions https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html
 4. Configure the following Environment variables
 * APPLICATION_ENVIRONMENT=<Environment_Name>
 * CLOUD_REGION=<Region_Name>
@@ -102,7 +99,7 @@ Note: SERVER_USERNAME and SERVER_PASSWORD details will be be provided by the mai
 5. Copy the settings.xml to ~/.m2
 6. Run the command
    ```sh
-   sam build
+   mvn build
    ```
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
