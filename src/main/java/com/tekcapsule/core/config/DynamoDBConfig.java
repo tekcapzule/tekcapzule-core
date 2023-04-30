@@ -25,7 +25,7 @@ public class DynamoDBConfig {
     public DynamoDBMapper dynamoDBMapper() {
 
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
-                .withRegion(String.valueOf(Regions.valueOf(cloudRegion)))
+                .withRegion(cloudRegion)
                 .build();
 
         DynamoDBMapper mapper = new DynamoDBMapper(client,new DynamoDBMapperConfig.Builder().withTableNameResolver(new TableNameResolver(applicationEnvironment)).build());
