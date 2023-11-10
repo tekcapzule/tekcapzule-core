@@ -1,4 +1,4 @@
-package com.tekcapsule.core.utils;
+package com.tekcapzule.core.utils;
 
 import java.util.HashMap;
 import java.util.Map;

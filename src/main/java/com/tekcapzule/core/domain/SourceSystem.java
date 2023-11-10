@@ -1,4 +1,4 @@
-package com.tekcapsule.core.domain;
+package com.tekcapzule.core.domain;
 
 public enum SourceSystem {
     WEB_CLIENT,

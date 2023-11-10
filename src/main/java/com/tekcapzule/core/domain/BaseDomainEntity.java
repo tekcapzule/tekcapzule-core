@@ -1,4 +1,4 @@
-package com.tekcapsule.core.domain;
+package com.tekcapzule.core.domain;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.fasterxml.jackson.annotation.JsonIgnore;

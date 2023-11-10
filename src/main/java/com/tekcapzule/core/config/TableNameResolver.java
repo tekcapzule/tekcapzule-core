@@ -1,4 +1,4 @@
-package com.tekcapsule.core.config;
+package com.tekcapzule.core.config;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig;
 import org.springframework.stereotype.Component;

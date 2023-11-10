@@ -16,8 +16,8 @@
                     <url>https://repo1.maven.org/maven2</url>
                 </repository>
                 <repository>
-                    <id>tekcapsule-core</id>
-                    <url>https://maven.pkg.github.com/tekcapsule/tekcapsule-core</url>
+                    <id>tekcapzule-core</id>
+                    <url>https://maven.pkg.github.com/tekcapzule/tekcapzule-core</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -28,7 +28,7 @@
 
     <servers>
         <server>
-            <id>tekcapsule-core</id>
+            <id>tekcapzule-core</id>
             <username>${env.SERVER_USERNAME}</username>
             <password>${env.SERVER_PASSWORD}</password>
         </server>

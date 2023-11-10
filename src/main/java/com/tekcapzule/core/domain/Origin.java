@@ -1,4 +1,4 @@
-package com.tekcapsule.core.domain;
+package com.tekcapzule.core.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

@@ -1,25 +1,25 @@
 <!-- PROJECT SHIELDS -->
 <a name="readme-top"></a>
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Main Branch](https://github.com/tekcapsule/tekcapsule-core/actions/workflows/cicd.yml/badge.svg)](https://github.com/tekcapsule/tekcapsule-core/actions/workflows/cicd.yml) 
-[![SonarCloud Bugs](https://sonarcloud.io/api/project_badges/measure?project=tekcapsule_tekcapsule-core&metric=bugs)](https://sonarcloud.io/project/overview?id=tekcapsule_tekcapsule-core)
-[![SonarCloud Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=tekcapsule_tekcapsule-core&metric=vulnerabilities)](https://sonarcloud.io/project/overview?id=tekcapsule_tekcapsule-core)
-[![SonarCloud Code Smell](https://sonarcloud.io/api/project_badges/measure?project=tekcapsule_tekcapsule-core&metric=code_smells)](https://sonarcloud.io/project/overview?id=tekcapsule_tekcapsule-core)
-[![SonarCloud Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=tekcapsule_tekcapsule-core&metric=ncloc)](https://sonarcloud.io/project/overview?id=tekcapsule_tekcapsule-core)
-[![Github all releases](https://img.shields.io/github/downloads/tekcapsule/tekcapsule-core/total.svg)](https://GitHub.com/tekcapsule/tekcapsule-core/releases/)
+[![Main Branch](https://github.com/tekcapzule/tekcapzule-core/actions/workflows/cicd.yml/badge.svg)](https://github.com/tekcapzule/tekcapzule-core/actions/workflows/cicd.yml) 
+[![SonarCloud Bugs](https://sonarcloud.io/api/project_badges/measure?project=tekcapzule_tekcapzule-core&metric=bugs)](https://sonarcloud.io/project/overview?id=tekcapzule_tekcapzule-core)
+[![SonarCloud Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=tekcapzule_tekcapzule-core&metric=vulnerabilities)](https://sonarcloud.io/project/overview?id=tekcapzule_tekcapzule-core)
+[![SonarCloud Code Smell](https://sonarcloud.io/api/project_badges/measure?project=tekcapzule_tekcapzule-core&metric=code_smells)](https://sonarcloud.io/project/overview?id=tekcapzule_tekcapzule-core)
+[![SonarCloud Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=tekcapzule_tekcapzule-core&metric=ncloc)](https://sonarcloud.io/project/overview?id=tekcapzule_tekcapzule-core)
+[![Github all releases](https://img.shields.io/github/downloads/tekcapzule/tekcapzule-core/total.svg)](https://GitHub.com/tekcapzule/tekcapzule-core/releases/)
 
 
 <!-- PROJECT LOGO -->
-
+![logo_svg.svg](..%2F..%2F..%2F..%2FDownloads%2Flogo_svg.svg)
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/9839481/209770761-99fd940f-3c75-407b-a339-9fd2cd2c5b7f.svg">
-  <h3 align="center">TekCapsule Core</h3>
+  
+  <h3 align="center">TekCapzule Core</h3>
   <p align="center">
     A shared library that contains re-usable helper methods.
     <br />
-    <a href="https://www.tekcapsule.com/">View Demo</a> |
-    <a href="https://github.com/tekcapsule/tekcapsule-core/issues">Report Bug</a> |
-    <a href="https://github.com/tekcapsule/tekcapsule-core/issues">Request Feature</a>
+    <a href="https://www.tekcapzule.com/">View Demo</a> |
+    <a href="https://github.com/tekcapzule/tekcapzule-core/issues">Report Bug</a> |
+    <a href="https://github.com/tekcapzule/tekcapzule-core/issues">Request Feature</a>
   </p>
 </div>
 <div align="center">
@@ -55,7 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project contains set of re-usable helper methods and other shared classes that are used across all TekCapsule backend services (Lambda functions).
+This project contains set of re-usable helper methods and other shared classes that are used across all tekcapzule backend services (Lambda functions).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +84,7 @@ This project requires following softwares:
 Please follow the step by step instructions to install the required softwares and setup the project.
 1. Clone the repo
    ```sh
-   git clone https://github.com/tekcapsule/tekcapsule-core.git
+   git clone https://github.com/tekcapzule/tekcapzule-core.git
    ```
 4. Configure the following Environment variables
 * APPLICATION_ENVIRONMENT=<Environment_Name>
@@ -108,7 +108,7 @@ Note: SERVER_USERNAME and SERVER_PASSWORD details will be be provided by the mai
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/tekcapsule/tekcapsule-core/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/tekcapzule/tekcapzule-core/issues) for a list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +127,7 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 ## Contributors
-<img src= "https://contrib.rocks/image?repo=tekcapsule/tekcapsule-core">
+<img src= "https://contrib.rocks/image?repo=tekcapzule/tekcapzule-core">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

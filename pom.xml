@@ -8,17 +8,17 @@
         <version>2.5.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.tekcapsule</groupId>
-    <artifactId>tekcapsule-core</artifactId>
-    <version>1.0.2</version>
+    <groupId>com.tekcapzule</groupId>
+    <artifactId>tekcapzule-core</artifactId>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
     <name>core</name>
-    <description>TekCapsule Core shared library</description>
+    <description>Tekcapzule Core shared library</description>
     <properties>
         <java.version>11</java.version>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
         <spring-cloud-function.version>3.1.4</spring-cloud-function.version>
-        <sonar.organization>tekcapsule</sonar.organization>
+        <sonar.organization>tekcapzule</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencies>
@@ -81,9 +81,9 @@
     </build>
     <distributionManagement>
         <repository>
-            <id>tekcapsule-core</id>
-            <name>GitHub TekCapsule Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/tekcapsule/tekcapsule-core</url>
+            <id>tekcapzule-core</id>
+            <name>GitHub tekcapzule Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/tekcapzule/tekcapzule-core</url>
         </repository>
     </distributionManagement>
 </project>

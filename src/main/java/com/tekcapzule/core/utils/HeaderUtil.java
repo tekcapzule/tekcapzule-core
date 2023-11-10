@@ -1,7 +1,7 @@
-package com.tekcapsule.core.utils;
+package com.tekcapzule.core.utils;
 
-import com.tekcapsule.core.domain.Origin;
-import com.tekcapsule.core.domain.SourceSystem;
+import com.tekcapzule.core.domain.Origin;
+import com.tekcapzule.core.domain.SourceSystem;
 import org.springframework.http.HttpStatus;
 import org.springframework.messaging.MessageHeaders;
 
