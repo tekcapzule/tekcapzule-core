@@ -10,9 +10,9 @@
 
 
 <!-- PROJECT LOGO -->
-![logo_svg.svg](..%2F..%2F..%2F..%2FDownloads%2Flogo_svg.svg)
+
 <div align="center">
-  
+  <img src="https://github.com/tekcapzule/tekcapzule-web/assets/9839481/bc965502-9a3a-4eb0-bb56-f1e9c0f4a5b0.svg">
   <h3 align="center">TekCapzule Core</h3>
   <p align="center">
     A shared library that contains re-usable helper methods.
